@@ -1,0 +1,69 @@
+/* globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Color Variables */
+:root {
+  --white: #fff; /* White color */
+  --black: #000; /* Black color */
+  --light-blue: #4896ff; /* Light blue color */
+  --dark-blue: #1b2b60; /* Dark blue color */
+  --neon-blue: #00bfff; /* Neon blue color */
+  --neon-light: #adece6; /* Light blue neon color */
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  --text-color: var(--black);
+  --background: var(--white);
+  --neon-color: var(--neon-blue);
+}
+
+/* Light Mode Styles */
+.light-mode {
+  --text-color: var(--white);
+  --background: var(--dark-blue);
+  --neon-color: var(--neon-light);
+}
+
+/* Body Styles */
+body {
+  color: var(--text-color);
+  background:var(--background);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+/* Heading Styles */
+.heading {
+  color: var(--text-color);
+  font-weight: bold; /* Adjust as needed */
+  margin-bottom: 0.75rem; /* Adjust as needed */
+}
+
+/* Link Styles */
+.link {
+  color: var(--text-color);
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+/* Paragraph Styles */
+.paragraph {
+  margin-bottom: 1.5rem;
+  font-size: 1rem; /* Adjust as needed */
+}
+
+/* Additional Customization */
+/* Customize form elements, buttons, and other components as needed */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+}
