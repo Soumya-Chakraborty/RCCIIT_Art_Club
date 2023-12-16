@@ -1,4 +1,3 @@
-//context/AuthContext.js
 "use client";
 // Importing necessary modules from React and Firebase
 import { useContext, createContext, useState, useEffect } from "react";
@@ -20,19 +19,12 @@ export const AuthContextProvider = ({ children }) => {
 
   // Function to handle Google sign-in
   const googleSignIn = () => {
-    const provider = new GoogleAuthProvider();
-    signInWithPopup(auth, provider)
-      .catch((error) => {
-        // Handle popup closure or other errors
-        if (error.code === "auth/cancelled-popup-request") {
-          // Handle the case where the user closed the popup
-          console.log("Popup closed by the user");
-        } else {
-          // Handle other authentication errors
-          console.error("Authentication error:", error.message);
-        }
-      });
-  };
+  const provider = new GoogleAuthProvider();
+  signInWithPopup(auth, provider)
+    .catch((error) => {
+      console.error("Error during sign-in:", error.message);
+    });
+};
 
   // Function to handle log out
   const logOut = () => {
@@ -49,7 +41,7 @@ export const AuthContextProvider = ({ children }) => {
 
     // Unsubscribe when the component unmounts
     return () => unsubscribe();
-  }, []); // Remove user from the dependency array to avoid unnecessary re-renders
+  }, [user]); // Dependency array includes user to react to changes in user state
 
   // Providing the authentication context to the component tree
   return (

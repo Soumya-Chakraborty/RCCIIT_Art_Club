@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 
-import anime1 from 'app/components/Anime.jpeg';
-import anime2 from 'app/components/Anime1.jpg';
+import anime1 from 'app/Anime.jpeg';
+import anime2 from 'app/Anime1.jpg';
 
 function Home() {
   return (
@@ -20,10 +20,10 @@ function Home() {
           </p>
         </div>
         <div className="text-center md:text-left">
-          <a href="http://localhost:3000/about" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+          <a href="/about" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
             Know More
           </a>
-          <a href="http://localhost:3000/profile" className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
+          <a href="/profile" className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
             Register Now
           </a>
         </div>
