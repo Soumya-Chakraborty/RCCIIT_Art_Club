@@ -20,10 +20,10 @@ function Home() {
           </p>
         </div>
         <div className="text-center md:text-left">
-          <a href="/about" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+          <a href="https://soumya-chakraborty.github.io/RCCIIT_Art_Club/about" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
             Know More
           </a>
-          <a href="/profile" className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
+          <a href="https://soumya-chakraborty.github.io/RCCIIT_Art_Club/profile" className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
             Register Now
           </a>
         </div>
