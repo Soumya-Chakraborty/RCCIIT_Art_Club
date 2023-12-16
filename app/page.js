@@ -30,7 +30,7 @@ function Home() {
       </div>
       <div className="md:flex-1 flex justify-center items-center">
         <Image
-          src="/_next/static/media/Anime.4136a887.jpeg"
+          src={anime1}
           alt="Anime"
           width={400}
           height={600}
@@ -41,7 +41,7 @@ function Home() {
       </div>
       <div className="md:flex-1 flex justify-center items-center">
         <Image
-          src="/_next/static/media/Anime1.a8d48758.jpg"
+          src={anime2}
           alt="Anime 1"
           width={400}
           height={600}
