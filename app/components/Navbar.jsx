@@ -53,10 +53,10 @@ const Navbar = () => {
   return (
     <div className="h-20 w-full border-b-2 flex items-center justify-between px-4">
       <ul className="flex space-x-4">
-        <li className="transition duration-300 hover:text-black-700">
+        <li className="transition duration-300 hover:text-blue-500">
           <Link href="/">Home</Link>
         </li>
-        <li className="transition duration-300 hover:text-black-500">
+        <li className="transition duration-300 hover:text-blue-500">
           <Link href="/about">About us</Link>
         </li>
         {!user ? null : (
