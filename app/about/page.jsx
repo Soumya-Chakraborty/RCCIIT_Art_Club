@@ -28,8 +28,7 @@ const Page = () => {
           <strong className="text-pink-500">Category:</strong> Individual Submissions
         </p>
         <p className="mb-2">
-          <strong className="text-pink-500">Submission Guidelines:</strong> Submit your entries through this
-          <a href="https://forms.gle/WF9o826QLsfhm9nY6" className="text-indigo-600 hover:underline"> form</a> by the specified deadline. Include your name, contact information, and a brief description of your artwork.
+          <strong className="text-pink-500">Submission Guidelines:</strong> Submit your entries through this form by the specified deadline. Include your name, contact information, and a brief description of your artwork.
         </p>
       </div>
 
