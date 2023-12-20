@@ -20,16 +20,27 @@ const page = () => {
       {loading ? (
         <Spinner />
       ) : user ? (
-        <p className="text-2xl mb-4 text-white-600">
-            Hey <span className="text-red-500 font-bold">{user.displayName}</span>! 🎨 Welcome to the excitement of the <span className="italic">Animae Art Contest 2023</span>! 🚀 Your registration is confirmed, and we're thrilled to have you on board.
-
-Get ready to dive into a world of creativity and imagination. 🌟 As a contestant, you have the power to bring your unique vision to life. Whether it's vibrant characters, mesmerizing scenes, or innovative concepts, the canvas is yours.
-
-Stay tuned for updates, announcements, and inspiration to fuel your artistic journey. Feel free to explore the contest community, connect with fellow artists, and share your progress. 🤝 Together, let's make this contest a celebration of artistry and talent.
-
-Best of luck, and may your artistic endeavors shine bright in the Animae Art Contest 2023! 🌈✨
-
-        </p>
+        <div className="text-2xl mb-4 text-gray-600">
+          {/*
+            Using template literals for better readability and concatenation
+            Adding space after 'Hey' for better spacing
+          */}
+          {`Hey `}
+          <span className="text-red-500 font-bold">{user.displayName}</span>!!
+          🎨 Welcome to the excitement of the{" "}
+          <span className="font-bold">Animae Art Contest 2023</span>! 🚀 Your
+          registration is confirmed, and we're thrilled to have you on board.
+          {/*
+            Adding margin-top for better separation
+            Adjusting button styling for consistency
+          */}
+          <a
+            href="https://forms.gle/WF9o826QLsfhm9nY6"
+            className="mt-4 inline-block bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+          >
+            Submit Your Painting
+          </a>
+        </div>
 
       ) : (
         <p className="text-lg text-gray-700">
