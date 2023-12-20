@@ -2,7 +2,7 @@ import React from 'react'
 
 const Page = () => {
   return (
-    <main className="container mx-auto px-8 py-12 bg-white rounded-lg shadow-lg">
+    <main className="container mx-auto px-8 py-12 shadow-lg">
       <h1 className="text-4xl font-extrabold mb-6 text-indigo-600">
         Attention, Creative Minds and Art Enthusiasts!
       </h1>
