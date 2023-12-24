@@ -20,7 +20,7 @@ Ensure your system has Node.js and npm installed by downloading them from [here]
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/awesome-project.git
+git clone https://github.com/Soumya-Chakraborty/RCCIIT_Art_Club.git
 ```
 
 2. Navigate to the project folder and install dependencies:
@@ -32,7 +32,7 @@ npm install
 3. Start the development server:
 
 ```bash
-npm start
+npm run dev
 ```
 
 Visit http://localhost:3000 to access the web app.
@@ -98,3 +98,22 @@ Ensure the quality of your project with the following tools and methods:
 - Utilize Cypress for end-to-end testing, simulating user interactions and behaviors. Follow the documentation [here](#).
 - Measure code coverage with Codecov, and use Coveralls for code coverage history and statistics. Guides are available [here](#) and [here](#).
 - Employ Chrome DevTools as the primary tool for real-time debugging, inspecting, and profiling the web app during development. It offers features for monitoring network activity, analyzing performance, and troubleshooting JavaScript code.
+
+Certainly! Here's an improved and visually enhanced version of the provided content:
+
+
+## Communicating and Collaborating with Others
+
+Effective communication and collaboration are pivotal aspects of contributing to the RCCIIT Art Club Project. Engage with the community through channels such as mailing lists, forums, or social media. Share your innovative ideas, seek constructive feedback, and actively participate in discussions. Collaborate seamlessly with fellow contributors to elevate the overall project experience.
+
+
+## Acknowledging and Rewarding Your Contributors
+
+Recognizing and expressing appreciation for contributions is foundational to nurturing a positive and inclusive community. Acknowledge the dedicated efforts of contributors through personalized messages, shout-outs, or prominent credits within the project. Consider implementing a system of rewards or special recognition to motivate and convey gratitude to those who significantly contribute to the project's success.
+
+
+## License and Legal Aspects
+
+Respecting legal aspects and adhering to licensing is paramount for a collaborative project. Ensure that your contributions align with the project's chosen license. Familiarize yourself with the terms and conditions to comprehend how your work can be used, modified, and shared. Address any legal considerations promptly to maintain a robust, healthy, and legally compliant project ecosystem.
+
+---
