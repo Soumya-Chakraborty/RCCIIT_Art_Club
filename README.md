@@ -4,17 +4,29 @@ This is a Node.js package that allows you to create and manage a website for the
 
 ![Screenshot of the website](https://github.com/Soumya-Chakraborty/RCCIIT_Art_Club/blob/main/app/ANIME%20ART%20CONTEST%20POSTER.png?raw=true)
 
-## Installation
+## Setting up the development environment
 
-To install this package, you need to have Node.js and npm installed on your system. You can download them from [here](^1^).
+Ensure your system has Node.js and npm installed by downloading them from [here](https://nodejs.org/). Then, follow these steps:
 
-Then, run the following command in your terminal:
+1. Clone this repository to your local machine:
 
 ```bash
-npm install rcciit-art-club-website
+git clone https://github.com/Soumya-Chakraborty/RCCIIT_Art_Club.git
 ```
 
-This will install the package and its dependencies in your project folder.
+2. Navigate to the project folder and install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+Visit http://localhost:3000 to access the web app.
 
 ## Usage
 
@@ -44,13 +56,13 @@ npx rcciit-art-club-website config.json --theme dark --layout list --title "RCCI
 
 We welcome any contributions to this project. You can report issues, request features, or submit pull requests on our [GitHub repository](^2^).
 
-Please read our [contribution guidelines](CONTRIBUTING.md) before making any changes.
+Please read our [contribution guidelines](Contribution.md) before making any changes.
 
 ## Support
 
 If you need any help or have any questions about this project, you can contact us at rcciitartclub@gmail.com. You can also follow us on [Facebook](^3^) and [Instagram](^4^) for the latest updates.
 
-For more information on our support policy, please read our [support document](SUPPORT.md).
+For more information on our support policy, please read our [support document](Support.md).
 
 ## Citation
 
@@ -68,11 +80,3 @@ If you use this project in your research or publications, please cite it as foll
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-Source: Conversation with Bing, 23/12/2023
-(1) About package README files | npm Docs. https://docs.npmjs.com/about-package-readme-files/.
-(2) Writing the Perfect Readme for Your Node Library. https://blog.bitsrc.io/writing-the-perfect-reademe-for-your-node-library-2d5f24dc1c06.
-(3) How to write a great README for your GitHub project. https://dbader.org/blog/write-a-great-readme-for-your-github-project.
-(4) The Real Guide to Writing a NPM Package | by Luke Perry | Medium. https://medium.com/@luke_perry_dev/the-real-guide-to-writing-a-npm-package-9dcd68ee4707.
-(5) undefined. https://bing.com/search?q=.
-(6) undefined. https://docs.readthedocs.io/.
